@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+#intro{
+    font-size: 50px;
+    background-color: gray;
+    text-align: center;
+
+}
+.mainpage{
+    font-size: 80px;
+    color: yellow;
+}
+.py-5{
+    font-size: 120px;
+    color: white;
+}
+p{
+    background-color: green;
+    border-radius: 30px;
+}
+h2{
+    background-color: pink;
+}
