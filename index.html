@@ -9,12 +9,14 @@
 <body>
     <section id="intro" class="mainpage py-5 ">
         <div class="inner">
-            <p  onclick="alert('내장이벤트와 함수')">타이틀컨텐츠추가</p>
+            <p >타이틀컨텐츠추가</p>
             <p>내용을 넣어줍니다.<br> 두줄로 노출되겠네</p>
         </div>
     </section>
     <script>
-      
+        document.querySelector("#intro p").addEventListener("click", function(){
+            alert('바닐라로 접근하는 실행식')
+        }) 
     </script>
 
 
